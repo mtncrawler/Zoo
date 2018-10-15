@@ -6,6 +6,13 @@ namespace lab05_zoo.classes
 {
     class Pegasus : Centaur
     {
+        public override bool LiveForever { get; set; } = true;
 
+        public override bool HaveWings { get; set; } = true;
+
+        public override string MagicalPower()
+        {
+            return "I can fly at incredible speeds.";
+        }
     }
 }

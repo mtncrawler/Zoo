@@ -6,6 +6,16 @@ namespace lab05_zoo.classes
 {
     abstract class Creature
     {
+        public string Name
+        {
+            get; set;
+        }
+
+        public int Age
+        {
+            get; set;
+        }
+
         public abstract bool LiveForever
         {
             get; set;
