@@ -7,6 +7,7 @@ namespace lab05_zoo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
         }
     }
 }
