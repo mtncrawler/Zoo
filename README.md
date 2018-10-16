@@ -11,7 +11,7 @@ Create a zoo hierarchy class structure that uses all four principles of object-o
 - 2 virtual properties (override one of them)
 
 ## Diagram
-![Zoo Diagram](assets/zoo.png)
+![Zoo Diagram](assets/zoo.png "Zoo Diagram")
 
 ## Object-Oriented Programming Principles
 1. Abstraction - Break down into smaller components such as classes that are used to describe the characteristics of an object that differ from others.
