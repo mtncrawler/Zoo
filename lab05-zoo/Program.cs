@@ -9,11 +9,14 @@ namespace lab05_zoo
         {
             Console.WriteLine("Hello World!");
 
-            Vampire vamp1 = new Vampire();
+            //Vampire vamp1 = new Vampire();
 
-            Console.WriteLine(vamp1.MyMotto());
-            Console.WriteLine(vamp1.GoalInLife());
-            
+            //Console.WriteLine(vamp1.MyMotto());
+            //Console.WriteLine(vamp1.GoalInLife());
+
+            Mermaid merm = new Mermaid();
+
+            Console.WriteLine(merm.MyUniqueness());
         }
     }
 }

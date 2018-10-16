@@ -4,13 +4,18 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    abstract class Fish
+    public abstract class Fish
     {
         public virtual int NumberOfGills { get; set; }
 
         public virtual string MyUniqueness()
         {
             return "I can swim.";
+        }
+
+        public string WhatAboutChildren()
+        {
+            return "Hundreds!";
         }
     }
 }
