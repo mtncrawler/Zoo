@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Centaur : Unicorn
+    public class Centaur : Unicorn
     {
         public string Name { get; set; }
 

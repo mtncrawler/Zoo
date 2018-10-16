@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    abstract class Creature
+    public abstract class Creature
     {
         public abstract bool LiveForever { get; set; }
 

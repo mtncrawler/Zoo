@@ -1,14 +1,19 @@
 ﻿using System;
+using lab05_zoo.classes;
 
 namespace lab05_zoo
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
 
+            Vampire vamp1 = new Vampire();
 
+            Console.WriteLine(vamp1.MyMotto());
+            Console.WriteLine(vamp1.GoalInLife());
+            
         }
     }
 }

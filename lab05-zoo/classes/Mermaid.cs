@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Mermaid : Fish
+    public class Mermaid : Fish
     {
         public override string MyUniqueness()
         {

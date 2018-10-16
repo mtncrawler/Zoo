@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    abstract class Human
+    public abstract class Human
     {
         public string Name { get; set; }
         
