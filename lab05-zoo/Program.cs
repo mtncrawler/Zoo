@@ -17,6 +17,12 @@ namespace lab05_zoo
             Mermaid merm = new Mermaid();
 
             Console.WriteLine(merm.MyUniqueness());
+
+            Unicorn uni = new Unicorn();
+
+            Console.WriteLine(uni.HowManySpouses());
+
+
         }
     }
 }

@@ -38,6 +38,52 @@ namespace zooTest
             Assert.Equal("Hundreds!", merm.WhatAboutChildren());
         }
 
+        [Fact]
+        public void UnicornMagicalPowers()
+        {
+            Unicorn uni = new Unicorn();
 
+            Assert.Equal("Everything my horn touches turns to gold.", uni.MagicalPower());
+        }
+        
+        [Fact]
+        public void UnicornSpouses()
+        {
+            Unicorn uni = new Unicorn();
+
+            Assert.Equal(2, uni.HowManySpouses());
+        }
+
+        [Fact]
+        public void CentaurMagicalPowers()
+        {
+            Centaur cent = new Centaur();
+
+            Assert.Equal("I have superior strength and speed.", cent.MagicalPower());
+        }
+
+        [Fact]
+        public void CentaurSpouses()
+        {
+            Centaur cent = new Centaur();
+
+            Assert.Equal(2, cent.HowManySpouses());
+        }
+
+        [Fact]
+        public void PegasusMagicalPowers()
+        {
+            Pegasus peggie = new Pegasus();
+
+            Assert.Equal("I can fly at incredible speeds.", peggie.MagicalPower());
+        }
+
+        [Fact]
+        public void PegasusSpouses()
+        {
+            Pegasus peggie = new Pegasus();
+
+            Assert.Equal(2, peggie.HowManySpouses());
+        }
     }
 }

@@ -11,5 +11,10 @@ namespace lab05_zoo.classes
         public abstract bool HaveWings { get; set; }
 
         public abstract string MagicalPower();
+
+        public int HowManySpouses()
+        {
+            return 2;
+        }
     }
 }

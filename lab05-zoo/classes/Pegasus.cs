@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Pegasus : Centaur
+    public class Pegasus : Centaur
     {
         public override bool LiveForever { get; set; } = true;
 
