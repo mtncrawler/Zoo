@@ -1,16 +1,22 @@
-﻿using System;
+﻿using lab05_zoo.interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace lab05_zoo.classes
 {
-    public class Centaur : Unicorn
+    public class Centaur : Unicorn, ILive
     {
         public string Name { get; set; }
 
         public override bool LiveForever { get; set; } = true;
 
         public override bool HaveWings { get; set; } = false;
+
+        public string BirthPlace()
+        {
+            return "I was born in Greenland.";
+        }
 
         public override string MagicalPower()
         {
