@@ -6,13 +6,9 @@ namespace lab05_zoo.classes
 {
     abstract class Human
     {
-        public string Name
-        {
-            get; set;
-        }
-
+        public string Name { get; set; }
+        
         public virtual int NumberOfBeatingHearts { get; set; }
-
 
         public abstract string MyMotto();
 

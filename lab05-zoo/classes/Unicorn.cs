@@ -6,6 +6,8 @@ namespace lab05_zoo.classes
 {
     class Unicorn : Creature
     {
+        public int Age { get; set; }
+
         public override bool LiveForever { get; set; } = false;
 
         public override bool HaveWings { get; set; } = false;
@@ -14,5 +16,7 @@ namespace lab05_zoo.classes
         {
             return "Everything my horn touches turns to gold.";
         }
+
+
     }
 }

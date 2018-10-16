@@ -6,25 +6,9 @@ namespace lab05_zoo.classes
 {
     abstract class Creature
     {
-        public string Name
-        {
-            get; set;
-        }
+        public abstract bool LiveForever { get; set; }
 
-        public int Age
-        {
-            get; set;
-        }
-
-        public abstract bool LiveForever
-        {
-            get; set;
-        }
-
-        public abstract bool HaveWings
-        {
-            get; set;
-        }
+        public abstract bool HaveWings { get; set; }
 
         public abstract string MagicalPower();
     }

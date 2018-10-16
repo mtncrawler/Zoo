@@ -6,6 +6,9 @@ namespace lab05_zoo.classes
 {
     class Mermaid : Fish
     {
-
+        public override string MyUniqueness()
+        {
+            return base.MyUniqueness() + "I have arms.";
+        }
     }
 }

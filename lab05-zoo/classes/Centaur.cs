@@ -6,6 +6,8 @@ namespace lab05_zoo.classes
 {
     class Centaur : Unicorn
     {
+        public string Name { get; set; }
+
         public override bool LiveForever { get; set; } = true;
 
         public override bool HaveWings { get; set; } = false;
