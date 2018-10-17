@@ -6,6 +6,9 @@ namespace zooTest
 {
     public class UnitTest1
     {
+        /// <summary>
+        /// Test that concrete animals inherited behaviors from base classes
+        /// </summary>
         [Fact]
         public void VampireSpeaksMotto()
         {
@@ -84,6 +87,44 @@ namespace zooTest
             Pegasus peggie = new Pegasus();
 
             Assert.Equal(2, peggie.HowManySpouses());
+        }
+
+        /// <summary>
+        /// Test that classes implement interface
+        /// </summary>
+        [Fact]
+        public void UnicornIFlyInterface()
+        {
+            Unicorn uni = new Unicorn();
+            Assert.Equal("I can fly short distances.", uni.FlightCapability());
+        }
+
+        [Fact]
+        public void UnicornILiveInterface()
+        {
+            Unicorn uni = new Unicorn();
+            Assert.Equal("I was born in Kansas.", uni.BirthPlace());
+        }
+
+        [Fact]
+        public void CentaurIFlyInterface()
+        {
+            Centaur centie = new Centaur();
+            Assert.Equal("I was born in Greenland.", centie.BirthPlace());
+        }
+
+        [Fact]
+        public void PegasusIFlyInterface()
+        {
+            Pegasus pegie = new Pegasus();
+            Assert.Equal("I can fly great distances.", pegie.FlightCapability());
+        }
+
+        [Fact]
+        public void PegasusILiveInterface()
+        {
+            Pegasus pegie = new Pegasus();
+            Assert.Equal("I was born in Norway.", pegie.BirthPlace());
         }
     }
 }

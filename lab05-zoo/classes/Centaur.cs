@@ -13,7 +13,7 @@ namespace lab05_zoo.classes
 
         public override bool HaveWings { get; set; } = false;
 
-        public string BirthPlace()
+        public new string BirthPlace()
         {
             return "I was born in Greenland.";
         }

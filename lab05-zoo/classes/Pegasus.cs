@@ -16,12 +16,12 @@ namespace lab05_zoo.classes
             return "I can fly at incredible speeds.";
         }
 
-        private new string FlightCapability()
+        public new string FlightCapability()
         {
             return "I can fly great distances.";
         }
 
-        private new string BirthPlace()
+        public new string BirthPlace()
         {
             return "I was born in Norway.";
         }
