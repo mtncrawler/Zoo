@@ -126,5 +126,24 @@ namespace zooTest
             Pegasus pegie = new Pegasus();
             Assert.Equal("I was born in Norway.", pegie.BirthPlace());
         }
+
+        /// <summary>
+        ///  Tests for polymorphism
+        /// </summary>
+        [Fact]
+        public void UnicornIsACreature()
+        {
+            Unicorn uni = new Unicorn();
+
+            Assert.True(uni is Creature);
+        }
+
+        [Fact]
+        public void PegasusIsACreature()
+        {
+            Pegasus peg = new Pegasus();
+
+            Assert.True(peg is Creature);
+        }
     }
 }
