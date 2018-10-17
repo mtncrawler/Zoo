@@ -4,11 +4,15 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Vampire : Human
+    public class Vampire : Human
     {
+        /// <summary>
+        /// method
+        /// </summary>
+        /// <returns></returns>
         public override string MyMotto()
         {
-            return "I live to drink sweetest blood.";
+            return "I live to drink the sweetest blood.";
         }
     }
 }
