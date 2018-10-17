@@ -7,12 +7,19 @@ namespace lab05_zoo.classes
 {
     public class Unicorn : Creature, IFly, ILive
     {
+        /// <summary>
+        /// properties
+        /// </summary>
         public int Age { get; set; }
 
         public override bool LiveForever { get; set; } = true;
 
         public override bool HaveWings { get; set; } = true;
         
+        /// <summary>
+        /// methods
+        /// </summary>
+        /// <returns></returns>
         public override string MagicalPower()
         {
             return "Everything my horn touches turns to gold.";
