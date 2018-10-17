@@ -9,18 +9,23 @@ namespace lab05_zoo
         {
             Console.WriteLine("Hello World!");
 
-            //Vampire vamp1 = new Vampire();
+            Vampire vampie = new Vampire { Name = "Drake", NumberOfBeatingHearts = 0 };
+            Console.WriteLine($"Vampire: {vampie.MyMotto()}");
+            Console.WriteLine($"Vampire: {vampie.GoalInLife()}");
 
-            //Console.WriteLine(vamp1.MyMotto());
-            //Console.WriteLine(vamp1.GoalInLife());
-
-            Mermaid merm = new Mermaid();
-
-            Console.WriteLine(merm.MyUniqueness());
+            Mermaid merm = new Mermaid() { NumberOfGills = 4 };
+            Console.WriteLine($"Mermaid: {merm.WhatAboutChildren()}");
+            Console.WriteLine($"Mermaid: {merm.MyUniqueness()}");
 
             Unicorn uni = new Unicorn();
+            Console.WriteLine($"Unicorn: {uni.MagicalPower()}");
+            Console.WriteLine($"Unicorn: I have {uni.HowManySpouses()} spouses.");
 
-            Console.WriteLine(uni.HowManySpouses());
+            Centaur centie = new Centaur();
+            Console.WriteLine($"Centaur: {centie.MagicalPower()}");
+
+            Pegasus pegie = new Pegasus();
+            Console.WriteLine($"Pegasus: {pegie.MagicalPower()}");
 
 
         }
